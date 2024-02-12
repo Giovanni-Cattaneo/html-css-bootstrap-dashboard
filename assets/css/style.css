@@ -20,11 +20,17 @@
         background-color: var(--bs-lightest);
     }
 
-    .form-control{
-    }
-
     .icon{
         gap: 0.8rem;
+
+        a{
+            text-decoration: none;
+            color: var(--bs-darker);
+        }
+
+        .fa-bell{
+            color: var(--bs-warning);
+        }
     }
 }
 
@@ -49,7 +55,7 @@
     .intestation{
         background-color: var(--bs-primary);
         color: var(--bs-lightest);
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0.5rem;
         height: 150px;
         width: 100%;
