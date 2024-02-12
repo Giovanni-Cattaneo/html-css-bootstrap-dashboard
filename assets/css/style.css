@@ -1,0 +1,12 @@
+:root{
+    --bs-background-primary: #1bbc9b;
+    --bs-dark: #3a546d;
+    --bs-darker: #2d3e50;
+    --bs-col-house: #bb4b63;
+    --bs-col-cake: #1fa4b7;
+    --bs-col-circus: black;
+    --bs-col-gamepad: #1b83c0;
+    --bs-col-vault: #0f38b6;
+    --bs-col-submarine: #ccb2a3;
+    --bs-lightest: white;
+}
