@@ -38,7 +38,6 @@
     background-color: var(--bs-darker);
     color: var(--bs-lightest);
     height: 94vh;
-    width: 150px;
     
     > .d-flex{
         flex-direction: column;
@@ -57,8 +56,13 @@
         color: var(--bs-lightest);
         justify-content: space-around;
         padding: 0.5rem;
-        height: 150px;
         width: 100%;
+
+        .boolean{
+            align-items: center;
+            width: 33%;
+            column-gap: 0.5rem;
+        }
 
         .ticket{
             border-radius: 1.5rem;
