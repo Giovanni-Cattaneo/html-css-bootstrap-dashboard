@@ -38,6 +38,7 @@
     background-color: var(--bs-darker);
     color: var(--bs-lightest);
     height: 94vh;
+    min-width: 110px;
     
     > .d-flex{
         flex-direction: column;
