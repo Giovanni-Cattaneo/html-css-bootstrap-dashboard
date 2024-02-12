@@ -7,7 +7,6 @@
 
 
 .body{
-    background-color: var(--bs-dark);
     height: 100vh;
 }
 
@@ -24,5 +23,19 @@
 
     .icon{
         gap: 0.8rem;
+    }
+}
+
+#aside{
+    width: 10%;
+    height: 94%;
+    background-color: var(--bs-dark);
+    color: var(--bs-lightest);
+    .d-flex{
+        flex-direction: column;
+    }
+
+    ul{
+        list-style: none;
     }
 }
