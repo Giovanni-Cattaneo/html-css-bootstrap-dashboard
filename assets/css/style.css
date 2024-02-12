@@ -52,7 +52,6 @@
         padding: 0.5rem;
         height: 150px;
         width: 100%;
-        display: block;
 
         .ticket{
             border-radius: 1.5rem;
@@ -69,6 +68,15 @@
             border: 0.1px solid white;
             border-radius: 0.5rem;
             color: var(--bs-lightest);
+        }
+    }
+
+    .todo{
+        flex-direction: column;
+        width: 100%;
+
+        #abc{
+            height: 1000px;
         }
     }
 
