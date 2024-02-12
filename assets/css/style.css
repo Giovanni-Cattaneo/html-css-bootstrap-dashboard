@@ -4,3 +4,22 @@
     --bs-warning: #fe8f02;
     --bs-lightest: white;
 }
+
+
+.body{
+    background-color: var(--bs-dark);
+    height: 100vh;
+}
+
+#site_header{
+    background-color: f8f9fb;
+
+    & .container{
+        gap: 0.8rem;
+        justify-content: start;
+        background-color: var(--bs-lightest);
+    }
+
+    .form-control{
+    }
+}
