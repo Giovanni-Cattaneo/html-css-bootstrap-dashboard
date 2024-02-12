@@ -16,10 +16,13 @@
 
     & .container{
         gap: 0.8rem;
-        justify-content: start;
         background-color: var(--bs-lightest);
     }
 
     .form-control{
+    }
+
+    .icon{
+        gap: 0.8rem;
     }
 }
