@@ -1,6 +1,7 @@
 :root{
     --bs-primary: #1b71e8;
-    --bs-dark: #051e34;
+    --bs-darker: #051e34;
+    --bs-dark: #f8f9fb;
     --bs-warning: #fe8f02;
     --bs-lightest: white;
     --bs-ticket-background: #115cc1;
@@ -12,7 +13,7 @@
 }
 
 #site_header{
-    background-color: #f8f9fb;
+    background-color: var(--bs-dark);
 
     & .container{
         gap: 0.8rem;
@@ -28,7 +29,7 @@
 }
 
 #aside{
-    background-color: var(--bs-dark);
+    background-color: var(--bs-darker);
     color: var(--bs-lightest);
     height: 94vh;
     width: 150px;
@@ -76,6 +77,8 @@
         width: 100%;
     }
 
-    
+    .card-title{
+        background-color: #f8f9fb;
+    }
 
 }
