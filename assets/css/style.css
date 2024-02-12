@@ -54,7 +54,7 @@
     .intestation{
         background-color: var(--bs-primary);
         color: var(--bs-lightest);
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0.5rem;
         width: 100%;
 
