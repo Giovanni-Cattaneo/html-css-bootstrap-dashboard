@@ -15,7 +15,7 @@
 
     <header id="site_header">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="./assets/img/logo.svg" alt=""></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -38,18 +38,39 @@
     </header>
     <!-- /#site_header -->
 
-    <sidebar id="aside" class="d-flex">
-        <div class="d-flex">
-            <ul>
-                <li><i class="fa-solid fa-house"></i> Home</li>
-                <li><i class="fa-solid fa-chart-simple"></i> Stats</li>
-                <li><i class="fa-solid fa-signal"></i> Signals</li>
-            </ul>
-        </div>
-    </sidebar>
     <!-- /#aside -->
 
-    <main id="site_main"></main>
+    <main id="site_main" class="d-flex">
+        <sidebar id="aside" class="d-flex">
+            <div class="d-flex">
+                <ul>
+                    <li><i class="fa-solid fa-house"></i> Home</li>
+                    <li><i class="fa-solid fa-chart-simple"></i> Stats</li>
+                    <li><i class="fa-solid fa-signal"></i> Signals</li>
+                </ul>
+            </div>
+        </sidebar>
+
+        <div class="intestation d-flex">
+            <div class="boolean">
+                <h3>Boolean</h3>
+                <span class="ticket">Piano Blaze</span>
+                <span class="ticket">3 ap</span>
+                <span class="ticket">Boolean mobile app</span>
+                <span class="ticket">Boolean web app</span>
+                <span class="ticket">Boolean blog app</span>
+            </div>
+            <div class="student d-flex">
+                <span>Studenti online negli ultimi 30 minuti</span>
+                <h3>125</h3>
+            </div>
+            <div class="new-student">
+                <span>Nuovo studente</span>
+                <a href="#"><i class="fa-solid fa-plus"></i></a>
+            </div>
+        </div>
+
+    </main>
     <!-- /#site_main -->
 
 

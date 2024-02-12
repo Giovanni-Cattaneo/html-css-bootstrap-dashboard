@@ -3,6 +3,7 @@
     --bs-dark: #051e34;
     --bs-warning: #fe8f02;
     --bs-lightest: white;
+    --bs-ticket-background: #115cc1;
 }
 
 
@@ -11,7 +12,7 @@
 }
 
 #site_header{
-    background-color: f8f9fb;
+    background-color: #f8f9fb;
 
     & .container{
         gap: 0.8rem;
@@ -27,15 +28,47 @@
 }
 
 #aside{
-    width: 10%;
-    height: 94%;
     background-color: var(--bs-dark);
     color: var(--bs-lightest);
-    .d-flex{
+    height: 94vh;
+    
+    > .d-flex{
         flex-direction: column;
     }
 
     ul{
         list-style: none;
     }
+}
+
+#site_main{
+    background-color: #fe8f02;
+
+    .intestation{
+        background-color: var(--bs-primary);
+        color: var(--bs-lightest);
+        justify-content: space-between;
+        padding: 0.5rem;
+        height: 150px;
+        width: 100%;
+
+        .ticket{
+            border-radius: 1.5rem;
+            background-color: var(--bs-ticket-background);
+            padding: 0.2rem;
+        }
+
+        .student{
+            flex-direction: column;
+        }
+
+        .fa-plus{
+            padding: 0.5rem;
+            border: 0.1px solid white;
+            border-radius: 0.5rem;
+            color: var(--bs-lightest);
+        }
+    }
+
+
 }
