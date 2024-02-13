@@ -173,6 +173,15 @@
     }
 }
 
+.card_container{
+    border: 0.5px solid;
+    border-radius: 0.5rem;
+    
+    .check:not(:last-of-type){
+        border-bottom: 0.1px solid;
+    }
+}
+
 
 @media screen and (min-width: 575px) {
         .col{
