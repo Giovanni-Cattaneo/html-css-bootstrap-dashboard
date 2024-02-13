@@ -90,7 +90,7 @@
 
     .card-title{
         background-color: #f8f9fb;
-        border: 1px solid;
+        border-bottom: 1px solid;
     }
 
     .card{
