@@ -58,6 +58,7 @@
         justify-content: space-between;
         padding: 0.5rem;
         width: 100%;
+        flex-direction: column;
 
         .boolean{
             align-items: center;
@@ -71,6 +72,10 @@
             padding: 0.2rem;
         }
 
+        .boolean span:nth-child(5), .boolean span:nth-child(6), .boolean span:nth-child(7){
+            display: none;
+        }
+
         .student{
             flex-direction: column;
         }
@@ -80,6 +85,10 @@
             border: 0.1px solid white;
             border-radius: 0.5rem;
             color: var(--bs-lightest);
+        }
+
+        .new-student{
+            order: -1;
         }
     }
 
@@ -149,11 +158,30 @@
             display: none;
         }
 
+
+
 }
 
 @media screen and (min-width: 991px) {
     .col{
         display: block;
     }
+
+    #site_main{
+        .intestation{
+            flex-direction: row;
+
+            .boolean span:nth-child(5), .boolean span:nth-child(6), .boolean span:nth-child(7){
+                display: block;
+            }
+
+            .new-student{
+                order: 3;
+            }
+
+        }
+
+    }
+    
 
 }
