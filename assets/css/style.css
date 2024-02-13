@@ -105,11 +105,11 @@
                 border-bottom: 0.5px solid;
             }
     
-            .col-2{
+            .col-lg-2{
                 text-align: center;
             }  
 
-            .col:not(.col-2 + .col){
+            .col:not(.col-lg-2 + .col-lg){
                 text-align: center;
             }
     
@@ -141,7 +141,13 @@
         }
 
     }
+}
 
 
-
+@media screen and (min-width: 991px) {
+    #abc .container > row{
+        .col{
+            color: red;
+        }
+    }
 }
