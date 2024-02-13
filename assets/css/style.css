@@ -15,6 +15,10 @@
 #site_header{
     background-color: var(--bs-dark);
 
+    .fa-bell{
+        color: var(--bs-warning);
+    }
+
     & .container{
         gap: 0.8rem;
         background-color: var(--bs-lightest);
@@ -22,15 +26,13 @@
 
     .icon{
         gap: 0.8rem;
+        align-items: center;
 
         a{
             text-decoration: none;
             color: var(--bs-darker);
         }
 
-        .fa-bell{
-            color: var(--bs-warning);
-        }
     }
 }
 
@@ -173,7 +175,7 @@
     #site_main{
 
         #aside{
-            min-width: 110px;
+            min-width: 140px;
         }
 
         #aside .d-flex{
