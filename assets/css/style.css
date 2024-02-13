@@ -201,6 +201,10 @@
                 order: 3;
             }
         }
+
+        .offcanvas-end{
+            max-width: 50%;
+        }
     }
     
 }
