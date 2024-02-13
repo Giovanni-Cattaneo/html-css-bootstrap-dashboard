@@ -95,6 +95,10 @@
         + .container .row{
             border-bottom: 0.5px solid;
         }
+
+        + .container .col-2{
+            text-align: center;
+        }
     }
 
 
