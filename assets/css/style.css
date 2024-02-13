@@ -94,6 +94,13 @@
 
         + .container{
 
+            .fa-angles-right{
+                color: var(--bs-lightest);
+                background-color: var(--bs-warning);
+                border-radius: 50%;
+
+            }
+
             .row{
                 border-bottom: 0.5px solid;
             }
@@ -101,11 +108,34 @@
             .col-2{
                 text-align: center;
             }  
+
+            .col:not(.col-2 + .col){
+                text-align: center;
+            }
     
             .done{
                 color: var(--bs-lightest);
                 background-color: green;
-                border-radius: 1rem;
+                border-radius: 0.9rem;
+            }
+
+            .fa-pencil, .fa-trash{
+                color: grey;
+                border: 1.2px solid;
+                border-radius: 0.2rem;
+                font-size: 1.3rem;
+            }
+
+            .process{
+                color: var(--bs-lightest);
+                background-color: var(--bs-warning);
+                border-radius: 0.9rem;
+            }
+
+            .failed{
+                color: var(--bs-lightest);
+                background-color: red;
+                border-radius: 0.9rem;
             }
 
         }
