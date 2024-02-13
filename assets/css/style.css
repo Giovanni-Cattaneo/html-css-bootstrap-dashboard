@@ -117,6 +117,7 @@
 
             .row{
                 border-bottom: 0.5px solid;
+                align-items: center;
             }
     
             .col-lg-2{
@@ -131,6 +132,8 @@
                 color: var(--bs-lightest);
                 background-color: green;
                 border-radius: 0.9rem;
+                max-width: 4rem;
+                margin: auto;
             }
 
             .fa-pencil, .fa-trash{
