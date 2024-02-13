@@ -10,6 +10,7 @@
 
 .body{
     height: 100vh;
+    overflow: hidden;
 }
 
 #site_header{
@@ -54,20 +55,25 @@
         align-items: center;
         padding: 1rem;
         gap: 2rem;
+    
+    .d-flex{
+        transition: background-color 200ms;
+    }
+
+    > .d-flex:hover{
+            background-color: grey;
+    }
 
         span{
             display: none;
         }
 
-        .d-flex:nth-child(){
-            color: red;
-        }
     }
 
 }
 
 #site_main{
-    background-color: #fe8f02;
+    background-color: #f8f9fb;
 
     .intestation{
         background-color: var(--bs-primary);
