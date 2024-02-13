@@ -17,8 +17,9 @@
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid d-flex">
                 <a class="navbar-brand" href="#"><img src="./assets/img/mobile-logo.png" alt="" width="50"></a>
-                <form class="d-flex w-100" role="search">
-                    <input class="form-control me-2 " type="search" placeholder="Prova a cercare lezioni di Laravel"
+                <a class="navbar-brand" href="#"><img src="./assets/img/logo.svg" alt="" width="150"></a>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Prova a cercare lezioni di Laravel"
                         aria-label="Search">
                 </form>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -91,113 +92,122 @@
                 <div class="new-student">
                     <span>Nuovo studente</span>
                     <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-            aria-controls="offcanvasExample">
-            <i class="fa-solid fa-plus"></i>
-        </a>
+                        aria-controls="offcanvasExample">
+                        <i class="fa-solid fa-plus"></i>
+                    </a>
 
-        <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
+                    <div class="offcanvas offcanvas-end w-100" tabindex="-1" id="offcanvasExample"
+                        aria-labelledby="offcanvasExampleLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasExampleLabel">Inserisci un nuovo studente</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
                         </div>
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Cognome</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                        <div class="offcanvas-body">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Cognome</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">email</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">password</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Città</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Stato</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Scegli stato">
+                                        </div>
+                                    </div>
+                                    <div class="col-2">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">CAP</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label for="formFile" class="form-label">Default file input example</label>
+                                            <input class="form-control" type="file" id="formFile">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <input type="checkbox" name="" id=""><span class="px-2">Seleziona per
+                                            proseguire</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-4 py-3">
+                                        <button type="button" class="btn btn-primary">Salva</button>
+                                        <button type="button" class="btn btn-warning"><strong>Svuota</strong></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">email</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">password</label>
-                                <input type="password" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Indirizzo</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Città</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Stato</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Scegli stato">
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">CAP</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="mb-3">
-                                <label for="formFile" class="form-label">Default file input example</label>
-                                <input class="form-control" type="file" id="formFile">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-6">
-                            <input type="checkbox" name="" id=""><span class="px-2">Seleziona per proseguire</span>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-4 py-3">
-                            <button type="button" class="btn btn-primary">Salva</button>
-                            <button type="button" class="btn btn-warning"><strong>Svuota</strong></button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
                 </div>
             </div>
 

@@ -23,6 +23,11 @@
         gap: 0.9rem;
         background-color: var(--bs-lightest);
         justify-content: space-between;
+
+        > .d-flex{
+            width: 90%;
+            flex-wrap: nowrap;
+        }
     }
 
     .icon{
@@ -167,7 +172,9 @@
             display: none;
         }
 
-
+        .navbar-brand:nth-child(2){
+            display: none;
+        }
 
 }
 
@@ -175,6 +182,15 @@
     .col{
         display: block;
     }
+
+    .navbar-brand:nth-child(1){
+        display: none;
+    }
+
+    .navbar-brand:nth-child(2){
+        display: block;
+    }
+
 
     #site_main{
 
