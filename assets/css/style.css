@@ -109,7 +109,7 @@
                 text-align: center;
             }  
 
-            .col:not(.col-lg-2 + .col-lg){
+            .col-lg + .col-4{
                 text-align: center;
             }
     
@@ -144,10 +144,16 @@
 }
 
 
-@media screen and (min-width: 991px) {
-    #abc .container > row{
+@media screen and (min-width: 575px) {
         .col{
-            color: red;
+            display: none;
         }
+
+}
+
+@media screen and (min-width: 991px) {
+    .col{
+        display: block;
     }
+
 }
