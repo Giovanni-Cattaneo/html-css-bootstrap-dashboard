@@ -92,13 +92,24 @@
         background-color: #f8f9fb;
         border-bottom: 0.5px solid;
 
-        + .container .row{
-            border-bottom: 0.5px solid;
+        + .container{
+
+            .row{
+                border-bottom: 0.5px solid;
+            }
+    
+            .col-2{
+                text-align: center;
+            }  
+    
+            .done{
+                color: var(--bs-lightest);
+                background-color: green;
+                border-radius: 1rem;
+            }
+
         }
 
-        + .container .col-2{
-            text-align: center;
-        }
     }
 
 
