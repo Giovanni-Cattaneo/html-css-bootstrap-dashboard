@@ -19,9 +19,10 @@
         color: var(--bs-warning);
     }
 
-    & .container{
-        gap: 0.8rem;
+    .container-fluid{
+        gap: 0.9rem;
         background-color: var(--bs-lightest);
+        justify-content: space-between;
     }
 
     .icon{
