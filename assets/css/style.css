@@ -38,13 +38,16 @@
     background-color: var(--bs-darker);
     color: var(--bs-lightest);
     height: 94vh;
-    min-width: 110px;
     
     > .d-flex{
         flex-direction: column;
         align-items: center;
         padding: 1rem;
         gap: 1.5rem;
+
+        span{
+            display: none;
+        }
     }
 
 }
@@ -168,6 +171,19 @@
     }
 
     #site_main{
+
+        #aside{
+            min-width: 110px;
+        }
+
+        #aside .d-flex{
+
+            gap: 0.9rem;
+            span{
+                display: block;
+            }
+    
+        }
         .intestation{
             flex-direction: row;
 
@@ -178,10 +194,7 @@
             .new-student{
                 order: 3;
             }
-
         }
-
     }
     
-
 }
