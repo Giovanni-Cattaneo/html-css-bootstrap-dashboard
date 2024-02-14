@@ -32,7 +32,7 @@
             flex-wrap: nowrap;
         }
 
-        
+
         .navbar-collapse{
             flex-grow: 0;
         }
@@ -64,11 +64,12 @@
     .top-aside{
         width: 100%;
         flex-direction: column;
+        align-items: center;
         
         .d-flex{
             transition: background-color 200ms;
             gap: 0.5rem;
-            
+            align-items: center;
         }
     
         .d-flex:hover{
@@ -78,6 +79,8 @@
 
     .bottom-aside{
         transition: background-color 200ms;
+        align-items: center;
+        gap: 0.5rem;
     }
 
     .bottom-aside:hover{
