@@ -44,10 +44,13 @@
     }
 }
 
+.wrapper{
+    height: calc(100% - 60px);
+}
+
 #aside{
     background-color: var(--bs-darker);
     color: var(--bs-lightest);
-    height: 95vh;
     flex-direction: column;
     justify-content: space-between;
     
