@@ -16,6 +16,7 @@
 #site_header{
     background-color: var(--bs-dark);
     height: 60px;
+    z-index: 100;
 
     .fa-bell{
         color: var(--bs-warning);
@@ -27,8 +28,13 @@
         justify-content: space-between;
 
         > .d-flex{
-            width: 90%;
+            width: 74%;
             flex-wrap: nowrap;
+        }
+
+        
+        .navbar-collapse{
+            flex-grow: 0;
         }
     }
 
@@ -58,11 +64,11 @@
     .top-aside{
         width: 100%;
         flex-direction: column;
-        gap: 2rem;
-        align-items: start;
+        
         .d-flex{
             transition: background-color 200ms;
             gap: 0.5rem;
+            
         }
     
         .d-flex:hover{
@@ -128,6 +134,7 @@
         width: 100%;
         overflow-y: auto;
     }
+
 
     .card-title{
         background-color: #f8f9fb;
@@ -220,6 +227,14 @@
     .navbar-brand:nth-child(2){
         display: block;
     }
+
+    #site_header .container-fluid{
+        > .d-flex {
+            width: 90%;
+        }
+    }
+ 
+    
 
 
     #site_main{
