@@ -53,25 +53,29 @@
     color: var(--bs-lightest);
     flex-direction: column;
     justify-content: space-between;
-    
-    > .d-flex{
+    width: 140px;
+
+    .top-aside{
+        width: 100%;
         flex-direction: column;
-        align-items: center;
-        padding: 1rem;
         gap: 2rem;
+        align-items: start;
+        .d-flex{
+            transition: background-color 200ms;
+            gap: 0.5rem;
+        }
     
-    .d-flex{
+        .d-flex:hover{
+                background-color: grey;
+        }
+    }
+
+    .bottom-aside{
         transition: background-color 200ms;
     }
 
-    > .d-flex:hover{
-            background-color: grey;
-    }
-
-        span{
-            display: none;
-        }
-
+    .bottom-aside:hover{
+        background-color: grey;
     }
 
 }
