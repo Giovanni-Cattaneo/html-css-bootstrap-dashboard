@@ -26,10 +26,10 @@
         gap: 0.9rem;
         background-color: var(--bs-lightest);
         justify-content: space-between;
+        flex-wrap: nowrap;
 
         > .d-flex{
             width: 74%;
-            flex-wrap: nowrap;
         }
 
 
